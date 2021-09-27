@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ingreso al sistema</title>
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <div class="formulario">
+      <img src="img/user.png" alt="avatar-user" width="108" height="116" />
+
+      <form action="">
+        <select name="options" id="options" class="options-group">
+          <option selected value="0">Elija su rol</option>
+          <option value="1">Veterinario</option>
+          <option value="2">Auxiliar</option>
+          <option value="3">Operario</option>
+        </select>
+        <br /><br />
+        <input
+          type="text"
+          name="cedula"
+          id="cedula"
+          placeholder="Cédula"
+          class="options-group"
+        />
+        <br /><br />
+        <input
+          type="password"
+          name="contraseina"
+          id="contraseina"
+          placeholder="Contraseña"
+          class="options-group"
+        />
+        <p><a href="newPassword.html">Olvidar contraseña</a></p>
+        <br /><br />
+        <input class = "button-login" type="submit" value="Iniciar sesión" />
+      </form>
+    </div>
+  </body>
+</html>
